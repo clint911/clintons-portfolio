@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: inherit;
+    line-height: 1.6;
+  }
+}
+
+@layer utilities {
+  .border-3 {
+    border-width: 3px;
+  }
+
+  .rotate-1 {
+    transform: rotate(1deg);
+  }
+
+  .rotate-2 {
+    transform: rotate(2deg);
+  }
+
+  .rotate-3 {
+    transform: rotate(3deg);
+  }
+
+  .-rotate-1 {
+    transform: rotate(-1deg);
+  }
+
+  .-rotate-2 {
+    transform: rotate(-2deg);
+  }
+}
