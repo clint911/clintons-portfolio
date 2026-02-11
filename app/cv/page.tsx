@@ -24,9 +24,9 @@ export default function CV() {
 
                 <div className="bg-white border-2 border-black p-4">
                   <h3 className="text-xl font-bold">software engineer</h3>
-                  <p className="font-bold text-pink-600">freelance software developer • 2023 - 2025</p>
+                  <p className="font-bold text-pink-600">freelance software developer • 2024 - present</p>
                   <p className="mt-2">
-                    engineered the business operational intelligence behind client projects, crafting robust APIs, integrating payment systems, and pioneering smart contract solutions that deliver real value and drive business success, turned coffee and pizza into beautiful user interfaces. shipped features that users actually used!
+                    engineering the business operational intelligence behind client projects, crafting robust APIs, integrating payment systems, and pioneering smart contract solutions that deliver real value and drive business success, turned coffee and pizza into beautiful user interfaces. shipped features that users actually used!
                   </p>
                 </div>
               </div>
@@ -38,12 +38,20 @@ export default function CV() {
 
               <div className="bg-white border-2 border-black p-4">
                 <h3 className="text-xl font-bold">maths & computer science</h3>
-                <p className="font-bold text-cyan-600">jkuat • 2020 - 2025</p>
+                <p className="font-bold text-cyan-600">jkuat • present</p>
                 <p className="mt-2">
                   learned how to think like a computer (and still stay human). there are no solutions, only tradeoffs. mastered the art of googling my way through problems.
                 </p>
               </div>
-            </div>
+              
+              <div className="bg-white border-2 border-black p-4">
+                <h3 className="text-xl font-bold">Fullstack Software Development Bootcamp</h3>
+                <p className="font-bold text-cyan-600">GoMyCodeKE • 2025</p>
+                <p className="mt-2">
+                  consolidated my software engineering skills through intensive training and hands-on projects.Learnt how to build prod-ready real-world applications, collaborate in teams, work with AI tools and navigate the software development lifecycle.
+                </p>
+                </div>
+              </div>
 
             {/* Skills */}
             <div className="bg-yellow-200 border-3 border-black p-6 transform rotate-1">
@@ -96,5 +104,6 @@ export default function CV() {
         </div>
       </div>
     </div>
-  )
-}
+  ); 
+  }
+
