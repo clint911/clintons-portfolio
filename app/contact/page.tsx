@@ -1,3 +1,5 @@
+import CoffeeButton from "@/components/payments/coffee-btn";
+
 export default function Contact() {
   return (
     <div className="min-h-screen p-4 py-12">
@@ -42,12 +44,15 @@ export default function Contact() {
                 />
               </div>
 
-              <button
-                type="submit"
-                className="w-full bg-yellow-400 border-3 border-black py-3 text-xl font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transform hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
-              >
-                send it! 🚀
-              </button>
+              <div className="space-y-4 pb-3">
+                <button
+                  type="submit"
+                  className="w-full bg-yellow-400 border-3 border-black py-3 text-xl font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transform hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
+                >
+                  send it! 🚀
+                </button>
+                <CoffeeButton />
+              </div>
             </form>
           </div>
 
@@ -107,5 +112,5 @@ export default function Contact() {
         </div>
       </div>
     </div>
-  )
+  );
 }
