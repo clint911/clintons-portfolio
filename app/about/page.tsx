@@ -22,7 +22,7 @@ export default function About() {
                 <li>• making websites go live (devops)</li>
                 <li>• fullstack magic with NextJs/Remix/Express</li>
                 <li>• smart contract magic with solidity & foundry</li>
-                <li>• api wizardry with python & fast api</li>
+                <li>• certified project  manager </li>
                 <li>• turning coffee into code</li>
               </ul>
             </div>
@@ -31,7 +31,7 @@ export default function About() {
           <div className="mt-8 bg-pink-200 border-3 border-black p-6 transform rotate-1">
             <h2 className="text-2xl font-bold mb-4">my superpowers 💪</h2>
             <div className="flex flex-wrap gap-3">
-              {["Java", "springboot", "TypeScript", "React", "Next.js", "Remix", "Node.js", "Python", "fastapi", "solidity"].map(
+              {["Java", "springboot", "TypeScript", "React", "Next.js", "Remix", "Node.js", "solidity", "Python",  "Project Management" ].map(
                 (skill) => (
                   <span
                     key={skill}

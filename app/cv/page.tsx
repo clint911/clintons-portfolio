@@ -43,7 +43,7 @@ export default function CV() {
                   learned how to think like a computer (and still stay human). there are no solutions, only tradeoffs. mastered the art of googling my way through problems.
                 </p>
               </div>
-              
+
               <div className="bg-white border-2 border-black p-4">
                 <h3 className="text-xl font-bold">Fullstack Software Development Bootcamp</h3>
                 <p className="font-bold text-cyan-600">GoMyCodeKE • 2025</p>
@@ -72,7 +72,7 @@ export default function CV() {
                 <div>
                   <h3 className="font-bold mb-2">tools i love:</h3>
                   <div className="flex flex-wrap gap-2">
-                    {["React", "Next.js", "Remix", "SpringBoot", "NodeJs", "Foundry", "FastAPI"].map((tool) => (
+                    {["React", "Next.js", "SpringBoot", "NodeJs", "Foundry", "Project Management"].map((tool) => (
                       <span key={tool} className="bg-orange-300 border-2 border-black px-2 py-1 text-sm font-bold">
                         {tool}
                       </span>
@@ -104,6 +104,6 @@ export default function CV() {
         </div>
       </div>
     </div>
-  ); 
+  );
   }
 

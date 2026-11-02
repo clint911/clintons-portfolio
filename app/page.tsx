@@ -15,7 +15,7 @@ export default function Home() {
             <p className="text-xl md:text-2xl font-bold">
               i make cool stuff on the internet ✨
               <br />
-              <span className="text-lg">developer • system architect • internet plumber • hecker</span>
+              <span className="text-lg">developer • system architect • internet plumber • project manager</span>
             </p>
           </div>
 
